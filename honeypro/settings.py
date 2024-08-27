@@ -84,8 +84,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Directories for collecting static files
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'honeyapp','static','assets')]
-STATIC_ROOT = os.path.join(BASE_DIR,"staticfiles_build","static")
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'ui/static')]
+STATIC_ROOT = os.path.join(BASE_DIR,"ui/staticfiles")
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
